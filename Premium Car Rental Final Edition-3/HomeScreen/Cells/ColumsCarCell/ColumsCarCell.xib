@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ColumsCarCell" reuseIdentifier="ColumsCarCell" id="gTV-IL-0wX" customClass="ColumsCarCell" customModule="HomeScreen" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="265"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="265"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ckQ-sR-1d1" customClass="AnimatableView" customModule="IBAnimatable">
+                        <rect key="frame" x="0.0" y="0.0" width="380" height="265"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="765LT" translatesAutoresizingMaskIntoConstraints="NO" id="L6a-Nu-mPh">
+                                <rect key="frame" x="24" y="0.0" width="332" height="164"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="McLaren 765LT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="848-Jy-SLF">
+                                <rect key="frame" x="24" y="183.5" width="332" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="dH8-SC-bFS" customClass="AnimatableStackView" customModule="IBAnimatable">
+                                <rect key="frame" x="24" y="213" width="332" height="40"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TURBO" translatesAutoresizingMaskIntoConstraints="NO" id="GLz-Nc-Tld">
+                                        <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CE5-iF-jQz"/>
+                                            <constraint firstAttribute="width" constant="40" id="rGL-DY-pIG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="765HP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxe-tO-mXK">
+                                        <rect key="frame" x="49" y="0.0" width="65" height="40"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="STOPWATCH" translatesAutoresizingMaskIntoConstraints="NO" id="WOO-0K-a5y">
+                                        <rect key="frame" x="123" y="0.0" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="gOz-ZO-FyN"/>
+                                            <constraint firstAttribute="height" constant="40" id="iIc-bA-3GD"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="02.3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8GH-H0-Cj3">
+                                        <rect key="frame" x="172" y="0.0" width="46.5" height="40"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$450 / 3 h" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pKY-Y2-09d">
+                                        <rect key="frame" x="227.5" y="0.0" width="104.5" height="40"/>
+                                        <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_borderType" value="solid"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_borderSides" value="Top"/>
+                                </userDefinedRuntimeAttributes>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.78575402500000002" green="0.19849276539999999" blue="0.013209244239999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="L6a-Nu-mPh" firstAttribute="leading" secondItem="ckQ-sR-1d1" secondAttribute="leading" constant="24" id="4cP-LQ-fng"/>
+                            <constraint firstItem="dH8-SC-bFS" firstAttribute="leading" secondItem="ckQ-sR-1d1" secondAttribute="leading" constant="24" id="Jwb-vF-46J"/>
+                            <constraint firstAttribute="trailing" secondItem="dH8-SC-bFS" secondAttribute="trailing" constant="24" id="TxF-Td-zmP"/>
+                            <constraint firstItem="848-Jy-SLF" firstAttribute="top" secondItem="L6a-Nu-mPh" secondAttribute="bottom" constant="19.5" id="dYI-M9-DQv"/>
+                            <constraint firstAttribute="bottom" secondItem="dH8-SC-bFS" secondAttribute="bottom" constant="12" id="dip-Mu-h6i"/>
+                            <constraint firstItem="L6a-Nu-mPh" firstAttribute="top" secondItem="ckQ-sR-1d1" secondAttribute="top" id="pOn-Fw-KJX"/>
+                            <constraint firstItem="dH8-SC-bFS" firstAttribute="top" secondItem="848-Jy-SLF" secondAttribute="bottom" constant="6" id="qGt-69-pzK"/>
+                            <constraint firstItem="848-Jy-SLF" firstAttribute="leading" secondItem="ckQ-sR-1d1" secondAttribute="leading" constant="24" id="qRj-nc-ORD"/>
+                            <constraint firstAttribute="trailing" secondItem="848-Jy-SLF" secondAttribute="trailing" constant="24" id="qfi-EY-Ka9"/>
+                            <constraint firstAttribute="trailing" secondItem="L6a-Nu-mPh" secondAttribute="trailing" constant="24" id="veY-qJ-IYS"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="25"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ckQ-sR-1d1" secondAttribute="trailing" id="7k1-IL-9n4"/>
+                <constraint firstItem="ckQ-sR-1d1" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Cft-y3-2Su"/>
+                <constraint firstAttribute="bottom" secondItem="ckQ-sR-1d1" secondAttribute="bottom" id="fYk-Ib-BFE"/>
+                <constraint firstItem="ckQ-sR-1d1" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="kl0-mb-8C6"/>
+            </constraints>
+            <size key="customSize" width="332" height="211"/>
+            <connections>
+                <outlet property="accelerationLabel" destination="8GH-H0-Cj3" id="Szh-Mu-aH2"/>
+                <outlet property="carImage" destination="L6a-Nu-mPh" id="aFW-QB-iIU"/>
+                <outlet property="containerView" destination="ckQ-sR-1d1" id="ozd-Mb-yLX"/>
+                <outlet property="horsepowerLabel" destination="Fxe-tO-mXK" id="dtj-lf-bfg"/>
+                <outlet property="nameLabel" destination="848-Jy-SLF" id="gZZ-Kc-4sd"/>
+                <outlet property="priceLabel" destination="pKY-Y2-09d" id="UKd-9G-fPk"/>
+            </connections>
+            <point key="canvasLocation" x="342.02898550724638" y="137.61160714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="765LT" width="340" height="164"/>
+        <image name="STOPWATCH" width="29" height="29"/>
+        <image name="TURBO" width="29" height="29"/>
+    </resources>
+</document>

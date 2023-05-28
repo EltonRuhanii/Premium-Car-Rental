@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Used-2022-Rolls-Royce-Cullinan-The-HOTTEST-Example-Available-Brand-NEW-Novitec-Widebody-Build-81-Miles-3.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
