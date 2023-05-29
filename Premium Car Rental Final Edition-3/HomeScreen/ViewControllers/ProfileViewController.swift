@@ -2,7 +2,7 @@
 //  ProfileViewController.swift
 //  HomeScreen
 //
-//  Created by TDI Student on 14.10.22.
+//  Created by WIZZARDI on 14.10.22.
 //
 
 import UIKit

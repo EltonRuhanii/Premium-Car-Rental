@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  HomeScreen
 //
-//  Created by EltonR on 10.9.22.
+//  Created by WIZZARDI on 10.9.22.
 //
 
 import UIKit

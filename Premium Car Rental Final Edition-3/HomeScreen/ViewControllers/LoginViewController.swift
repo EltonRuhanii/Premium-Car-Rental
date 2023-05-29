@@ -2,7 +2,7 @@
 //  LoginViewController.swift
 //  HomeScreen
 //
-//  Created by Era Statovci on 29.9.22.
+//  Created by WIZZARDI on 29.9.22.
 //
 
 import UIKit

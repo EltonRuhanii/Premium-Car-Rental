@@ -2,7 +2,7 @@
 //  FaqVC.swift
 //  HomeScreen
 //
-//  Created by EltonR on 24.9.22.
+//  Created by WIZZARDI on 24.9.22.
 //
 
 import UIKit

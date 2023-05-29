@@ -2,7 +2,7 @@
 //  CarDetailsVC.swift
 //  HomeScreen
 //
-//  Created by EltonR on 1.10.22.
+//  Created by WIZZARDI on 1.10.22.
 //
 
 import UIKit

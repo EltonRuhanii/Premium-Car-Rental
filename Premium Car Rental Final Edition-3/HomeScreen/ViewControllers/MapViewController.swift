@@ -2,7 +2,7 @@
 //  MapVC.swift
 //  HomeScreen
 //
-//  Created by Era Statovci on 30.9.22.
+//  Created by WIZZARDI on 30.9.22.
 //
 import UIKit
 import MapKit
